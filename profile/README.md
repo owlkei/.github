@@ -7,6 +7,12 @@
 
 <p align="center"><strong>Owlkei (OK)</strong></p>
 
+<p align="center">
+  <a href="https://owlkei.com">owlkei.com</a> ·
+  <a href="https://x.com/owlkeidev">X @owlkeidev</a> ·
+  <a href="https://bsky.app/profile/owlkei.bsky.social">Bluesky @owlkei.bsky.social</a>
+</p>
+
 Owlkei is a UI component library and a Go web framework that are built to fit together. An Owlkei/Go
 page route renders Owlkei/UI's HTML markup, and the same components work in React. Storage,
 cache and WebSocket come with the framework, and an app ships as one binary.
