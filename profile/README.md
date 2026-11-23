@@ -5,19 +5,19 @@
   </picture>
 </p>
 
-Owlkei is a UI component library and a Go web framework that are built to fit together. A Go
-page route renders Owlkei UI's HTML markup, and the same components work in React. Storage,
+Owlkei is a UI component library and a Go web framework that are built to fit together. An Owlkei/Go
+page route renders Owlkei/UI's HTML markup, and the same components work in React. Storage,
 cache and WebSocket come with the framework, and an app ships as one binary.
 
 ## Repositories
 
-- **[sdk](https://github.com/owlkei/sdk)**: the client for Owlkei Go apps, in TypeScript and Go.
+- **[Owlkei/SDK](https://github.com/owlkei/sdk)**: the client for Owlkei/Go apps, in TypeScript and Go.
   It speaks WebSocket today; HTTP comes next.
-- **Owlkei UI** (not public yet): components, blocks and templates in plain HTML and React, with
+- **Owlkei/UI** (not public yet): components, blocks and templates in plain HTML and React, with
   nine design styles, light and dark modes and WCAG AA contrast.
-- **Owlkei Go** (not public yet): routes come from method names (`READ_users_BY_id` answers
+- **Owlkei/Go** (not public yet): routes come from method names (`READ_users_BY_id` answers
   `GET /users/{id}`), and dependency injection wires modules, controllers and services.
-- **Owlkei CLI** (planned): `owlkei new` scaffolds a project, and `owlkei routes` prints an app's
+- **Owlkei/CLI** (planned): `owlkei new` scaffolds a project, and `owlkei routes` prints an app's
   route table, with JSON output for editors and CI.
 
 Nothing is released yet. Releases and docs will be at [owlkei.com](https://owlkei.com).
