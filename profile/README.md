@@ -13,8 +13,6 @@ cache and WebSocket come with the framework, and an app ships as one binary.
 
 - **[sdk](https://github.com/owlkei/sdk)**: the client for Owlkei Go apps, in TypeScript and Go.
   It speaks WebSocket today; HTTP comes next.
-- **[websocket](https://github.com/owlkei/websocket)**: RFC 6455 WebSocket for Go, server and
-  minimal client, standard library only. It passes the Autobahn test suite.
 - **Owlkei UI** (not public yet): components, blocks and templates in plain HTML and React, with
   nine design styles, light and dark modes and WCAG AA contrast.
 - **Owlkei Go** (not public yet): routes come from method names (`READ_users_BY_id` answers
