@@ -1,21 +1,12 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./owlkei-horizontal-dark.svg">
-    <img src="./owlkei-horizontal-light.svg" alt="Owlkei" width="320">
-  </picture>
-</p>
+# Owlkei (OK)
 
-<p align="center"><strong>Owlkei (OK)</strong></p>
+Owlkei is a stack for building a complete web app with one set of tools: the interface, the
+server and the parts between them.
 
-<p align="center">
-  <a href="https://owlkei.com">owlkei.com</a> ·
-  <a href="https://x.com/owlkeidev">X @owlkeidev</a> ·
-  <a href="https://bsky.app/profile/owlkei.bsky.social">Bluesky @owlkei.bsky.social</a>
-</p>
-
-Owlkei is a UI component library and a Go web framework that are built to fit together. An Owlkei/Go
-page route renders Owlkei/UI's HTML markup, and the same components work in React. Storage,
-cache and WebSocket come with the framework, and an app ships as one binary.
+Owlkei/UI is the interface: accessible components and page blocks that work in plain HTML or in
+React. Owlkei/Go is the server: a web framework with storage, cache and WebSocket built in, which
+ships an app as one binary. A Go route renders the same markup the components use, so the page
+you design is the page you serve, with no glue layer to write.
 
 ## Repositories
 
